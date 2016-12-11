@@ -1,0 +1,31 @@
+{
+/*
+	 // Place your snippets for Markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"front matter in jekyll": {
+		"prefix": "h",
+		"body": [
+			"---",
+			"layout: $1",
+			"title:  \"$2\"",
+			"date:   $3 $4",
+			"image:",
+				"\tfeature: $5",
+			"comments: $6",
+			"$7permalink: $8",
+			"---"
+		],
+		"description": "front matter for jekyll"
+	}
+}

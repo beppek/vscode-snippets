@@ -1,0 +1,54 @@
+{
+/*
+	 // Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+
+	"Angular2 Click": {
+		"prefix": "ng2-click",
+		"body": [
+			"(click)=\"$1\""
+		],
+		"description": "Angular2 click"
+	},
+
+	"HTML5 Boilerplate": {
+		"prefix": "hboil",
+		"body": [
+"<!doctype html>",
+"<html lang=''>",
+    "\t<head>",
+        "\t\t<meta charset='utf-8'>",
+        "\t\t<meta http-equiv='x-ua-compatible' content='ie=edge'>",
+        "\t\t<title></title>",
+        "\t\t<meta name='description' content=''>",
+        "\t\t<meta name='viewport' content='width=device-width, initial-scale=1'>",
+
+        "\t\t<link rel='stylesheet'' href='css/main.css'>",
+    "\t</head>",
+    "\t<body>",
+        "\t\t<!--[if lt IE 8]>",
+            "\t\t\t<p class='browserupgrade'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>",
+        "\t\t<![endif]-->",
+		"\n",
+        "\t\t<!-- Add your site or application content here -->",
+        "\t\t<p>Hello world! This is HTML5 Boilerplate.</p>",
+
+        "\t\t<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>",
+        "\t\t<script src='js/main.js'></script>",
+    "\t</body>",
+"</html>"
+],
+		"description": "html5 boilerplate snippet"
+	}
+}

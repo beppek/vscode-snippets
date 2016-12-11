@@ -1,0 +1,84 @@
+{
+/*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+
+	"Mocha Test Snippet": {
+		"prefix": "mocha test",
+		"body": [
+			"'use strict';",
+			"var chai = require('chai');",
+			"",
+			"var assert = chai.assert;"
+		],
+		"description": "Snippet to create the beginning of a mocha test file. Require chai and create assert var."
+	},
+
+	"Assert Equal": {
+		"prefix": "eq",
+		"body": "assert.equal(actual, expected);",
+		"description": "Snippet for assert.equal"
+	},
+
+	"Export anonymous object": {
+		"prefix": "meao",
+		"body": [
+			"module.exports = {",
+			"	$1: $2",
+			"};"
+		],
+		"description": "Snippet to export an anonymous object"
+	},
+
+	"Export Module": {
+		"prefix": "me",
+		"body": "module.exports = $1;",
+		"description": "export module snippet"
+	},
+
+	"Require module": {
+		"prefix": "req",
+		"body": "var $1 = require('$2');",
+		"description": "require module snippet"
+	},
+
+	"Create JSDOC block comment": {
+		"prefix": "qq",
+		"body": "/**$1 */",
+		"description": "Create JSDOC snippet"
+	},
+
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+
+	"Print to console if var exists": {
+		"prefix": "logif",
+		"body": [
+			"if({$1}) {",
+			"	console.log($1);",
+			"} else {",
+			"	console.log(\"Unable to log because $1 is null \");",
+			"}",
+			"$4"
+		],
+		"description": "Log output to console if variable exists"
+	}
+
+}
